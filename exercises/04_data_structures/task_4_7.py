@@ -16,3 +16,6 @@
 """
 
 mac = "AAAA:BBBB:CCCC"
+mac = "AAAABBBBCCCC"
+result = bin(int('1'+mac, 16))[3:]
+print(result)
